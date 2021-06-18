@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.all {
+  width: 100%;
+  position: relative;
+}
+
+
+header {
+  position: relative;
+  height: 100px;
+}
+
+.headlist
+
+/*網頁表單超連結整個的DIV*/
+  {
+  font-size: 18px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 65px;
+  width: 100%;
+  background-color: rgb(3, 70, 70);
+  z-index: 2;
+
+}
+
+#SALE
+
+/*中原大學的圖片*/
+  {
+  margin-top: 2.5px;
+  height: 60px;
+  position: absolute;
+  left: 10%;
+  float: left;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.headlist table
+
+/*網頁表單清單表格*/
+  {
+  position: absolute;
+  left: 50%;
+  top: 5px;
+}
+
+
+.headlist td
+
+/*設計表單超聯結的內容*/
+  {
+  height: 50px;
+  width: 150px;
+  min-width: 100px;
+  text-align: center;
+  background-color: rgb(3, 70, 70);
+}
+
+.headlist td:hover
+
+/*設計表單超聯結的內容*/
+  {
+  background-color: #383A3F;
+  transition: 0.5s;
+  border-radius: 30%;
+}
+
+
+
+.footer
+
+/*網業尾巴的設定*/
+  {
+  font-size: 18px;
+  width: 100%;
+  height: 65px;
+  background-color: rgb(3, 70, 70);
+  outline: 8px solid rgb(3, 70, 70);
+  position: relative;
+  bottom: 0;
+  float: left;
+  z-index: 2;
+}
+
+.fp {
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer a {
+  font-size: 10px;
+}

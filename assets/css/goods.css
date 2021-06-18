@@ -1,0 +1,117 @@
+.gpht {
+  float: left;
+  width: 40%;
+  height: 450px;
+  background-color: seagreen;
+  position: relative;
+  left: 10%;
+
+}
+
+.gpht img {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 30px;
+
+}
+
+.gpht1 {
+  margin-top: 8px;
+  margin-left: 85px;
+  float: left;
+  width: 25%;
+  background-color: white
+}
+
+.gpht1 img {
+  margin-top: 10px;
+  width: 70px;
+  height: 140px;
+  position: relative;
+  left: 50px;
+  transform: scale(1, 1);
+  transform-origin: left bottom;
+
+
+}
+
+.gpht1:hover {
+  transform: translate(-100px, -50px) scale(1.5, 1.5);
+  transition: all 1s ease-out;
+}
+
+.gpht2 {
+  margin-top: 8px;
+  margin-left: 10px;
+  float: left;
+  width: 25%;
+  background-color: white;
+  z-index: 1;
+}
+
+.gpht2 img {
+  margin-top: 10px;
+  width: 70px;
+  height: 140px;
+  position: relative;
+  left: 50px;
+
+  transform: scale(1, 1);
+
+}
+
+.gpht2:hover {
+  transform: translate(100px, -50px) scale(1.5, 1.5);
+  transition: all 1s ease-out;
+}
+
+
+
+
+
+
+.gt {
+
+  float: left;
+  width: 40%;
+  height: 450px;
+  font-size: 30px;
+  background-color: seagreen;
+  position: relative;
+  left: 10%;
+}
+
+.gt table {
+  margin-top: 2px;
+  margin-left: 100px;
+
+}
+
+.botton {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.botton input {
+  color: white;
+  height: 100px;
+  width: 500px;
+  background-color: rgb(207, 207, 13);
+}
+
+.clean {
+  clear: left;
+}
+
+.pin {
+  width: 80%;
+  background-color: seagreen;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  left: 10%;
+}

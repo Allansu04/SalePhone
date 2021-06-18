@@ -1,0 +1,61 @@
+.fm {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 120px;
+
+}
+
+
+
+input {
+  width: 1000px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(196, 199, 224);
+  font-size: 18px;
+}
+
+.b {
+  width: 500px;
+  margin-top: 50px;
+  background-color: tomato;
+  color: white;
+
+}
+
+.ip {
+  width: 100%;
+  margin-bottom: 200px;
+
+}
+
+.lp img {
+  width: 1000px;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  font-family: Microsoft JhengHei;
+}
+
+.h {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.si {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.si a {
+  color: rgb(15, 153, 238);
+
+
+}

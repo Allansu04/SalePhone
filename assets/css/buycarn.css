@@ -1,0 +1,52 @@
+.bb {}
+
+.bb table {
+  width: 50%;
+  display: block;
+  margin: auto;
+  background-color: rgb(212, 196, 52);
+
+
+}
+
+.bb tr {
+  position: relative;
+  left: 30%;
+}
+
+.bb img {
+  width: 250px;
+}
+
+.cc {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.cc input {
+
+  width: 500px;
+  height: 100px;
+}
+
+.dd {
+  margin-bottom: 900px;
+  margin-top: 50px;
+}
+
+.dd button {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+
+.gg {
+  text-align: center;
+}
+
+.ee {
+  font-size: 100px;
+  text-align: center;
+}

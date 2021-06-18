@@ -1,0 +1,285 @@
+body {
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  background-color: #F5F5F7;
+}
+
+p {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  animation: color-cg 10s infinite linear alternate;
+}
+
+@keyframes color-cg {
+  0% {
+
+    color: blue;
+  }
+
+  10% {
+
+    color: #8e44ad;
+  }
+
+  20% {
+
+    color: #1abc9c;
+  }
+
+  30% {
+
+    color: #d35400;
+  }
+
+  40% {
+
+    color: blue;
+  }
+
+  50% {
+
+    color: #34495e;
+  }
+
+  60% {
+
+    color: blue;
+  }
+
+  70% {
+
+    color: #2980b9;
+  }
+
+  80% {
+
+    color: #f1c40f;
+  }
+
+  90% {
+
+    color: #2980b9;
+  }
+
+  100% {
+
+    color: pink;
+  }
+}
+
+.slider_container {
+  margin: 50px auto;
+  width: 600px;
+  height: 500px;
+  position: relative;
+  border: 20px solid;
+  border-color: #fff;
+  border-bottom-width: 100px;
+  background-color: #f5f5f5;
+  box-shadow: #666 0 0 5px;
+}
+
+
+.slider_container div {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.slider_container div {
+  -webkit-animation: round 25s linear infinite;
+  animation: round 25s linear infinite;
+}
+
+@-webkit-keyframes round {
+  4% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+  }
+
+  20% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  24% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+  }
+}
+
+@keyframes round {
+  4% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+  }
+
+  20% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  24% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+  }
+}
+
+.slider_container div:nth-child(5) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.slider_container div:nth-child(4) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.slider_container div:nth-child(3) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.slider_container div:nth-child(2) {
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+}
+
+.slider_container div:nth-child(1) {
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
+}
+
+.slider_container span {
+  color: #000;
+  background: #fff;
+  position: absolute;
+  left: 0%;
+  top: 500px;
+  width: 400px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.slider_container:hover span {
+  width: 100%;
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.ph
+
+/*首頁的圖片的框架*/
+  {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+
+}
+
+.text
+
+/*首頁的圖片的內容*/
+  {
+  width: 300px;
+  height: 310px;
+  position: relative;
+  font-weight: 500;
+  text-align: center;
+  background-color: rgb(3, 70, 70);
+}
+
+.ph img
+
+/*首頁的圖片*/
+  {
+  position: relative;
+  top: 5px;
+  width: 90%;
+  height: 300px;
+
+}
+
+.textcontant {
+
+  font-weight: 900;
+  width: 270px;
+  height: 300px;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  right: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, .6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.textcontant:hover
+
+/*首頁的圖片特效*/
+  {
+  opacity: 1;
+  transition: 0.8s;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+.text:hover .ph_img
+/*首頁的圖片特效*/
+
+  {
+  opacity: 1;
+  transition: 0.8s;
+  border-radius: 25%;
+  transition: 1s;
+
+}
+
+.textcontant h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #EEEE00;
+  text-align: center;
+}
+
+.textcontant h2::after {
+  content: '';
+  display: flex;
+  width: 75%;
+  height: 2px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #FFFFBB;
+}
+
+.cu {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}

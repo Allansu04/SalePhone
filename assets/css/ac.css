@@ -1,0 +1,71 @@
+.goods table {
+  width: 100%;
+  table-layout: fixed;
+  border: solid black 1px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 600px;
+
+}
+
+.goods {
+  width: 80%;
+  background-color: rgb(3, 70, 70);
+  position: relative;
+  left: 12%;
+  margin-bottom: 5px;
+}
+
+.goods tr {
+  background-color: rgb(212, 196, 52);
+}
+
+.gp {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  transform: scale(1, 1);
+  transition: all 1s ease-out;
+}
+
+.gp:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.gp1 {
+  width: 70%;
+
+
+}
+
+.gp2 {
+  width: 5%;
+}
+
+.gc {
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgb(212, 196, 52);
+  text-align: center;
+
+}
+
+.gc table {
+  position: absolute;
+  left: 30%;
+  top: 70px;
+}
+
+.gc td {
+  height: 50px;
+  width: 150px;
+  min-width: 100px;
+  text-align: center;
+  background-color: rgb(9, 136, 136);
+}
+
+.gp1 a {
+  color: black;
+  font-size: 30px;
+}

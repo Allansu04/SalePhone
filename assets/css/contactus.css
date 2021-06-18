@@ -1,0 +1,69 @@
+.pt {
+  width: 100%;
+}
+
+.pt img {
+  width: 1000px;
+  display: block;
+  margin: auto;
+
+}
+
+.con {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.con a {
+  width: 1000px;
+  display: block;
+  margin: auto;
+  color: rgb(148, 6, 6);
+  font-size: 20px;
+  text-align: center;
+}
+
+.mpt {
+  width: 25%;
+  float: left;
+  position: relative;
+  left: 20%;
+  margin-bottom: 50px;
+}
+
+.mpt img {
+  width: 150px;
+  height: 150px;
+}
+
+.ml {
+  width: 50%;
+  float: left;
+  position: relative;
+  left: 10%;
+}
+
+.ml p {
+  margin-top: 40px;
+  margin-left: 0;
+  font-size: 50px;
+}
+
+.ml a {
+  color: #000;
+}
+
+.clean {
+  clear: left;
+}
+
+p {
+  font-family: Microsoft JhengHei;
+}
+
+.h {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
